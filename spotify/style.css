@@ -308,10 +308,6 @@ a {
     opacity: 1;
 }
 
-.track-details{
-    
-}
-
 .control-icons{
     display: flex;
 }
@@ -319,7 +315,6 @@ a {
 .control-icons i{
     margin-left: 1rem;
 }
-
 
 .volume-progress-Bar{
     width: 50%;
