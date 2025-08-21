@@ -1,0 +1,49 @@
+section{
+    margin-top: 100px;
+   
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    background-color: #7fce7fe1;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+
+div:nth-of-type(2n){
+    background-color: #c3dd5dd1;
+}
+
+div:nth-of-type(3n){
+    background-color: #bf7f7f;
+    box-shadow: 4px 4px 10px #ff41bde5;
+}
+
+#one{
+    transform: rotate(20deg);
+    box-shadow: 4px 4px 10px #000000e5;
+}
+
+#two{
+    transform: scale(0.7);
+    box-shadow: 4px 4px 10px #ff41bde5;
+}
+
+#three{
+    transform: translateX(50px );
+    box-shadow: 4px 4px 10px #000000e5;
+}
+
+#four{
+    transform: skew(20deg);
+    box-shadow: 4px 4px 10px #ff41bde5;
+}
+
+#five{
+    transform: rotate(30deg)
+    translate(100px) skew(10deg);
+    box-shadow: 4px 4px 10px #000000e5;
+}

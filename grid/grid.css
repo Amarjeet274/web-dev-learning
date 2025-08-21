@@ -1,0 +1,58 @@
+#container {
+    height: 400px;
+    width: 600px;
+    background-color: #e46262;
+    display: grid;
+    margin: auto;
+
+    /* rows or column ko size dene ke liye use hota hai */
+
+
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px; */
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+    /* gaps ke liye use hota  hai */
+
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    grid-gap: 10px;
+
+    /* grid propertes  */
+
+    /* justify-items: center;
+    align-items: center; */
+
+
+    /* place property  */
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: #03d21f;
+    border: 2px solid #000;
+    text-align: center;
+
+
+
+}
+
+/* .one {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: 1/4;
+    grid-column: 1/span 2;
+}
+
+.two {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-row: 1/ span 3;
+} */

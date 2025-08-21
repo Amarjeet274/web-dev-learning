@@ -1,0 +1,42 @@
+#container {
+    height: 200px;
+    width: 70px;
+    background-color: #ffffff;
+    border: #000 solid 2px;
+}
+
+.inner {
+    height: 50px;
+    width: 50px;
+    border: #000 solid 2px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: #ff0000;
+}
+
+.inner2 {
+    height: 50px;
+    width: 50px;
+    border: #000 solid 2px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#yellow {
+    background-color: #ffff00;
+}
+
+.inner3 {
+    height: 50px;
+    width: 50px;
+    border: #000 solid 2px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#green {
+    background-color: #00ff00;
+}

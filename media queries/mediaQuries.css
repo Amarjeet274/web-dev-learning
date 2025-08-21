@@ -1,0 +1,51 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* media templete  */
+
+@media (width: 400px) { 
+    h1 {
+        background-color: red;
+        color: white;
+
+    }
+
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: greenyellow;
+        border: 2px solid black;
+    }
+}
+
+/* media me max or min set kr skte hai layout changes ke according  */
+
+@media (min-width: 300px) {
+    h1 {
+        background-color: #ff6010;
+    }
+}
+
+@media (min-width: 500px) {
+    h1 {
+        background-color: #00eeff;
+    }
+
+}
+
+/* media me range set kr skate hai  */
+
+@media (min-width: 200px) and (max-width: 300px) {
+    h1 {
+        background-color: magenta;
+    }
+}
+
+@media (orientation: landscape){
+    h1{
+        background-color:#ff2929;
+        color: rgb(16, 255, 55);
+    }
+}

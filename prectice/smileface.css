@@ -1,0 +1,36 @@
+.smiley-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 0);
+    border: 2px solid #000; 
+    box-shadow:2px 2px 8px black;
+}
+
+.eye-left, .eye-right {
+    width: 10px;
+    height: 10px;
+    background-color: black; 
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.eye-right{
+    left: 75px;
+}
+
+.mouth{
+    height: 20px;
+    width: 50px;
+    background-color: #d32a2a;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 60px;
+    left: 25px;
+}
+
+.smiley-circle:hover{
+    box-shadow:4px 4px 12px #c8787a;
+}

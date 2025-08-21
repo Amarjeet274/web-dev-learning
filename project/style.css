@@ -1,0 +1,36 @@
+.container {
+    padding: 0;
+    margin: 0;
+    height: 1003ev;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 2px;
+}
+
+
+.header{
+    padding: 0;
+    grid-column: 3 /span 11;
+    background-color: #2dbfe3;
+}
+
+.main-container{
+    grid-column: 1 /span 12;
+    grid-row: 2 /span 9;
+    background-color: #b2b6b0e6;
+}
+.imgddu{
+    grid-column: 1 /span 2;
+    background-color: #b2b6b0e6;
+}
+
+.logo{
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: absolute;
+
+    /* width: 20px; */
+
+}

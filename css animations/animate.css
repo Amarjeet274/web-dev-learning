@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(47, 255, 200);
+    text-align: center;
+    background-color: #d99393;
+}
+
+.box {
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+
+    /* animation property in line by line/  */
+
+/*  animation-name: coloranimate;
+    animation-duration: 10s;
+    animation-delay: 0; 
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* animation shorthand  */
+
+    animation: widthanimate 10s ease-in-out 0s infinite normal;
+
+}
+
+
+@keyframes coloranimate {
+    0% {
+        background-color: #E5F4E3;
+    }
+
+    20% {
+        background-color: #5DA9E95c;
+    }
+
+    40% {
+        background-color: #003F91;
+    }
+
+    60% {
+        background-color: #EDD83D;
+    }
+
+    80% {
+        background-color: #6D326D;
+    }
+
+    100% {
+        background-color: #6AB547;
+    }
+}
+
+@keyframes widthanimate {
+    from {
+        width: 150px;
+        box-shadow: 0px 4px 8px #000000;
+    }
+
+    to {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0px 4px 8px green;
+    }
+
+}

@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: yellow;
+}
+form{
+    background-color: #8ef58e;
+}
+
+button{
+    background-color: #5454ff;
+}
+
+button:hover{
+    background-color: #9f9fff;
+}
+
+input{
+    background-color: inherit;
+}
